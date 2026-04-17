@@ -1,5 +1,5 @@
 ---
-name: highstory-social-manager
+name: highstory-social-media-manager
 description: Transforms Claude into an autonomous Social Media Orchestrator using the High Story ecosystem to manage multilingual publication calendars across Instagram, LinkedIn, and Facebook via MCP.
 ---
 

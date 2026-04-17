@@ -9,29 +9,26 @@ Stop copy-pasting posts. This skill gives Claude the strategic framework and too
 - Orchestrate image generation via High Story.
 - **Publish directly** using the High Story MCP bridge.
 
-## 🛠️ Setup
+## 🛠️ Step-by-Step Installation
 
-1. **Install the MCP Bridge**:
+### Étape 1 : Récupérer le Skill
+1. Allez sur [https://github.com/7figures007/highstory-social-media-manager](https://github.com/7figures007/highstory-social-media-manager).
+2. Cliquez sur le bouton vert **Code** puis sur **Download ZIP** (ou utilisez `git clone` si vous connaissez).
+3. Décompressez le fichier et placez le dossier `highstory-social-media-manager` dans votre dossier habituel pour les skills Claude.
+
+### Étape 2 : Configurer le Bridge (La Connexion)
+1. Ouvrez votre terminal (Terminal sur Mac, PowerShell sur Windows).
+2. Tapez la commande suivante et appuyez sur Entrée :
    ```bash
    npx highstory-mcp setup
    ```
-2. **Configure Claude**:
-   Add this skill to your agent's directory to give it the "Social Media Manager" persona.
+3. Collez votre **Clé API permanente High Story** (que vous trouverez dans vos réglages High Story) quand cela est demandé.
+4. Redémarrez complètement votre application Claude Desktop.
+
+### Étape 3 : Utiliser Claude comme Manager RS
+Demandez simplement à Claude :
+> *"Utilise le skill High Story Social Media Orchestrator pour créer une campagne sur LinkedIn."*
 
 ## 🌐 Multilingual Support
 
 Includes ready-to-use strategies for 16 languages, ensuring brand consistency from Paris to Tokyo.
-automatique.
-- 🎨 **Layout Premium** : Conversion Markdown -> HTML avec styles Callout HighStory.
-- 📅 **Planning Sync** : Publication synchronisée de la même thématique dans toutes les langues.
-- 🔍 **SEO Ready** : Injection automatique de JSON-LD FAQ et Article.
-
-## Usage
-
-Une fois installé, l'agent saura :
-1. Analyser vos fichiers de téléchargement pour trouver les nouveaux contenus.
-2. Formater les FAQ et le contenu.
-3. Mettre à jour votre `articles.json` avec le bon calendrier.
-
----
-Propulsé par **7figures**.
